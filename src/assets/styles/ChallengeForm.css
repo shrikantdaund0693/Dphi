@@ -1,0 +1,29 @@
+.form-control {
+  width: 50%;
+}
+.form-control-2 {
+  width: 150px;
+  display: block;
+}
+.challenge-form label {
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.challenge-form select {
+  border: 1px solid lightgrey;
+}
+.challenge-form-container {
+  background-color: rgb(248, 249, 253);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.challenge-btn {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  outline: none;
+  border-radius: 7px;
+  margin-top: 30px;
+}

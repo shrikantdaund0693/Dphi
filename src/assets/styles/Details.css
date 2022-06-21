@@ -1,0 +1,67 @@
+.details-container {
+  background-color: rgb(0, 49, 69);
+  margin-top: 0;
+  padding: 50px 0px;
+  color: white;
+}
+.timeLabel {
+  background-color: #ffce5c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: black;
+  display: inline-block;
+}
+.hack-heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.level-para {
+  background-color: white;
+  color: black;
+  padding: 6px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.level-para img {
+  margin-right: 8px;
+}
+
+.naviation-details {
+  background: #ffffff;
+  border: 0.3px solid #dde6ed;
+  box-shadow: 0px 6px 12px #dde6ed;
+  padding-top: 10px;
+}
+.navigation-hubs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-link {
+  font-weight: 700;
+  border-bottom: 2px solid green;
+}
+
+.button {
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.edit-btn {
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+  margin-right: 10px;
+}
+
+.delete-btn {
+  background-color: white;
+  border: 1px solid green;
+}
+.description-container {
+  margin-top: 50px;
+  width: 80%;
+  padding-left: 30px;
+}
