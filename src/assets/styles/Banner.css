@@ -1,0 +1,51 @@
+.heading {
+  color: white;
+  padding: 30px;
+}
+
+.heading h1 {
+  border-left: 3px solid rgb(255, 206, 92);
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+.banner-rocket {
+  text-align: center;
+}
+.inner-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  padding-left: 20px;
+}
+.banner-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-right: 1px solid white;
+}
+.margin-0 {
+  margin: 0;
+}
+.no-border {
+  border: none;
+}
+.banner-grid-img-div {
+  background-color: rgb(242, 244, 255);
+  padding: 5px;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+.banner-grid-container {
+  padding: 40px 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: rgb(0, 42, 59);
+}
