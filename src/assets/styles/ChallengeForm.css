@@ -2,7 +2,7 @@
   width: 50%;
 }
 .form-control-2 {
-  width: 150px;
+  width: 300px;
   display: block;
 }
 .challenge-form label {
@@ -26,4 +26,10 @@
   outline: none;
   border-radius: 7px;
   margin-top: 30px;
+}
+.upload-btn {
+  background-color: rgb(244, 244, 244);
+  padding: 10px 30px;
+  border: none;
+  width: 300px;
 }

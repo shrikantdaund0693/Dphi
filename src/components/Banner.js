@@ -6,6 +6,7 @@ import Button from "@mui/material/Button";
 import ai from "../assets/icons/Group 1000002515.svg";
 import ds from "../assets/icons/Group 1000002516.svg";
 import aiCha from "../assets/icons/Group 1000002518.svg";
+import { Link } from "react-router-dom";
 
 function Banner() {
   return (
@@ -25,7 +26,12 @@ function Banner() {
                     variant="contained"
                     style={{ backgroundColor: "white", color: "black" }}
                   >
-                    Create Challenge
+                    <Link
+                      style={{ textDecoration: "none", color: "black" }}
+                      to="/create-challenge"
+                    >
+                      Create Challenge
+                    </Link>
                   </Button>
                 </div>
               </div>

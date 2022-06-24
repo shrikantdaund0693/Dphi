@@ -2,9 +2,8 @@ import { Grid } from "@mui/material";
 import React from "react";
 import "../assets/styles/Explore.css";
 import HackathonCard from "./HackathonCard";
-import data from "../DUMMY";
 
-function Explore() {
+function Explore({ challenges }) {
   return (
     <>
       <div className="search-filter-container">
@@ -25,7 +24,7 @@ function Explore() {
       <div className="challenges-container">
         <div className="inner-container">
           <Grid container spacing={3}>
-            {data.map((item) => {
+            {challenges.map((item) => {
               return (
                 <HackathonCard
                   key={item.id}
@@ -33,6 +32,7 @@ function Explore() {
                   name={item.name}
                   start={item.start}
                   end={item.end}
+                  image={item.image}
                 />
               );
             })}
